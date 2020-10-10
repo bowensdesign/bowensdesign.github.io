@@ -1,0 +1,184 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", Oswald;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  z-index: 999;
+  font-size: 35px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+
+.BD {
+    font-size:35px;
+    cursor: pointer;
+    position: fixed;
+}
+
+.BD1 {
+    letter-spacing:10px;
+}
+
+
+
+.header {
+    text-align: center ;
+    color: #fff!important;
+    background-color:rgba(41, 39, 39, 0.9);
+}
+
+.body {
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('/其他/Marble b2.jpg');
+    height: 400px;
+    background-color:rgba(41, 39, 39, 0.9);
+}
+
+
+.abouth {
+    margin: 50px;
+    padding: 15px;
+    background-color: white;
+    z-index: 55;
+    text-align: center;
+}
+
+
+.prologue {
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px;
+    z-index: 50;
+    background-color: white;
+}
+
+.conceptp {
+    font-weight: bold;
+    font-size: small;
+}
+
+
+.pictures {
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px;
+    z-index: 50;
+    background-color: white;
+    text-align: center;
+}
+
+
+.pictures1 {
+    background-color: white;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px;
+    z-index: 50;
+}
+
+.pichead {
+    background-color: white;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.bgColor {
+    text-align: center;
+}
+
+.readBtn {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.readBtn:hover {background-color: #e7e7e7;}
+
+.show_hide {
+    color: black;
+}

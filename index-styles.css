@@ -1,0 +1,154 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", Oswald;
+}
+
+hr{
+    border-top: 1px solid rgba(50, 48, 47,.1);
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  z-index: 999;
+  font-size: 35px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+
+.BD {
+    font-size:35px;
+    cursor: pointer;
+    position: fixed;
+    margin-left: -700px;
+}
+
+.BD1 {
+    letter-spacing:10px;
+}
+
+
+.header {
+    text-align: center ;
+    color: #fff!important;
+    background-color:rgba(41, 39, 39, 0.9);
+}
+
+.body {
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('/其他/Marble b2.jpg');
+    height: 400px;
+    background-color:rgba(41, 39, 39, 0.9);
+}
+
+.p1 {
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px;
+    z-index: 50;
+    background-color: white;
+}
+
+.introduce1 {
+    text-align: right;
+}
+
+.I1 {
+    height: 50%;
+    width: 50%;
+}
+
+#bp {
+    text-align: left;
+}
+
+.i1p {
+    text-align: left;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #77716f;
+  border: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#fp::first-letter{
+    font-size : 450%;
+    font-weight : bold;
+    float : left;
+    margin-right: 3px;
+    line-height: 100%;
+}
+
+#footer {
+    background-color: #3d2814;
+    line-height: 30px;
+    font-size: 13px;
+    text-align: center;
+    color: #eee;
+    padding: 30px 0px;
+}
