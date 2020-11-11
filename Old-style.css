@@ -61,7 +61,7 @@ body,h1,h2,h3,h4,h5,h6 {
 .body {
     background-attachment: fixed;
     background-position: center;
-    background-image: url('/其他/Marble b2.jpg');
+    background-image: url('/其他/marble.jpg');
     height: 400px;
     background-color:rgba(41, 39, 39, 0.9);
 }
