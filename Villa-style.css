@@ -1,147 +1,188 @@
 body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", Oswald;
+  font-family: "Lato", Oswald;
 }
 
 .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  background-color: rgb(0, 0, 0);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  text-align:center;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 999;
+top: 0;
+left: 0;
+background-color: rgb(0, 0, 0);
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+text-align:center;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
-  z-index: 999;
-  font-size: 35px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+padding: 8px 8px 8px 32px;
+z-index: 999;
+font-size: 35px;
+color: #818181;
+display: block;
+transition: 0.3s;
 
 }
 
 .sidenav a:hover{
-  color: #f1f1f1;
+color: #f1f1f1;
 }
 
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  text-decoration: none;
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+text-decoration: none;
 }
 
 
 .BD {
-    font-size:35px;
-    cursor: pointer;
-    position: fixed;
-    margin-left: -700px;
+  font-size:35px;
+  cursor: pointer;
+  margin-left: 50px;
+  position: fixed;
 }
 
 .BD1 {
-    letter-spacing:10px;
+  letter-spacing:10px;
 }
 
 
 
 .header {
-    text-align: center ;
-    color: #fff!important;
-    background-color:rgba(41, 39, 39, 0.9);
+  text-align: center ;
+  color: #fff!important;
+  background-color:rgba(41, 39, 39, 0.9);
 }
 
 .body {
-    background-attachment: fixed;
-    background-position: center;
-    background-image: url('/其他/marble.jpg');
-    height: 400px;
-    background-color:rgba(41, 39, 39, 0.9);
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url('/其他/marble.jpg');
+  height: 400px;
+  background-color:rgba(41, 39, 39, 0.9);
 }
 
 
 .abouth {
-    margin: 50px;
-    padding: 15px;
-    background-color: white;
-    z-index: 55;
-    text-align: center;
+  margin: 50px;
+  padding: 15px;
+  background-color: white;
+  z-index: 55;
+  text-align: center;
 }
 
 
 #prologue {
-    margin: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 100px;
-    z-index: 50;
-    background-color: white;
+  margin: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 100px;
+  z-index: 50;
+  background-color: white;
 }
 
 .conceptp {
-    font-weight: bold;
-    font-size: small;
+  font-weight: bold;
+  font-size: small;
 }
 
 
 .p1 {
-    margin: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 100px;
-    z-index: 50;
-    background-color: white;
+  margin: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 100px;
+  z-index: 50;
+  background-color: white;
 }
 
 
 
 .container {
-  position: relative;
-  width: 50%;
+position: relative;
+width: 50%;
 }
 
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
+display: block;
+width: 100%;
+height: auto;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 15px;
-  right: 15px;
-  height: auto;
-  width: auto;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: black;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 15px;
+right: 15px;
+height: auto;
+width: auto;
+opacity: 0;
+transition: .5s ease;
+background-color: black;
 }
 
 .container:hover .overlay {
-  opacity: 1;
+opacity: 1;
 }
 
 #div1 {
-    width: 200px;
-    padding: 20px;
-    margin-right: 10px;
-    border: 2px;
-    float: left;
+  width: 200px;
+  padding: 20px;
+  margin-right: 10px;
+  border: 2px;
+  float: left;
 }
 
 #div2 {
-    width: 200px;
-    padding: 20px;
-    border: 2px;
-    float: left;
+  width: 200px;
+  padding: 20px;
+  border: 2px;
+  float: left;
+}
+
+#footer {
+  background-color: #3d2814;
+  line-height: 30px;
+  font-size: 13px;
+  text-align: center;
+  color: #eee;
+  padding: 30px 0px;
+}
+
+
+.carousel .carousel-item {
+height: 450px;
+}
+
+.carousel .carousel-item img {
+min-height: 450px;
+max-height: 400px;
+object-fit: cover;
+}
+
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99; 
+  border: 1.5px solid #3d2814; 
+  outline: none; 
+  background-color: #fff; 
+  color: #818181; 
+  cursor: pointer;
+  padding: 20px 20px 20px 20px; 
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #818181;  
+  color: #fff;
 }
